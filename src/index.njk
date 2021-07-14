@@ -17,6 +17,17 @@
   <h1>Home</h1>
   <a href="/public">Public</a>
   <a href="/private">Private</a>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 
 </html>

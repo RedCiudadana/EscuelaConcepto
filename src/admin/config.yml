@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: "uploads"
+collections:
+  - name: "course" # Used in routes, e.g., /admin/collections/blog
+    label: "Curso" # Used in the UI
+    folder: "_posts/course" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Fecha de inicio", name: "start_date", widget: "datetime" }
+      - { label: "Imagen del curso", name: "thumbnail", widget: "image" }
+      - { label: "Descripcion", name: "body", widget: "markdown" }
+  - name: "class" # Used in routes, e.g., /admin/collections/blog
+    label: "Clase" # Used in the UI
+    folder: "_posts/class" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
+      - label: "Curso"
+        name: "course"
+        widget: "relation"
+        collection: "courses"
+        search_fields: ["titulo"]
+        value_field: "titulo"
+        display_fields: ["titulo", "start_date"]
