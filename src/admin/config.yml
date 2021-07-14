@@ -10,6 +10,7 @@ collections:
     slug: "{{year}}-{{month}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "course.njk" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "course" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Fecha de inicio", name: "start_date", widget: "datetime" }
       - { label: "Imagen del curso", name: "thumbnail", widget: "image" }
@@ -21,6 +22,7 @@ collections:
     slug: "{{year}}-{{month}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "class.njk" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "class" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Contenido", name: "body", widget: "markdown" }
       - label: "Curso"

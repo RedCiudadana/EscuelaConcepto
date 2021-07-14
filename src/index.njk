@@ -17,6 +17,15 @@
   <h1>Home</h1>
   <a href="/public">Public</a>
   <a href="/private">Private</a>
+  <ul>
+    {%- for course in collections.course -%}
+    <li>
+      <a href="{{ course.url }}">
+        {{ course.data.title }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
