@@ -1,7 +1,7 @@
 ---
 layout: class.njk
 title: Clase 1. Introduccion a Gobierno Digital
-course: Aprendiendo Netllify CMS
+course: Gobierno Digital
 ---
 <!--StartFragment-->
 
