@@ -2,6 +2,7 @@
 layout: class.njk
 title: Clase 1. Introducción a Gobierno Digital
 course: Gobierno Digital
+tags: class
 ---
 <!--StartFragment-->
 

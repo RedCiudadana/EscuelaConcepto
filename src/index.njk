@@ -17,11 +17,22 @@
   <h1>Home</h1>
   <a href="/public">Public</a>
   <a href="/private">Private</a>
+  <h2>Cursos</h2>
   <ul>
     {%- for course in collections.course -%}
     <li>
       <a href="{{ course.url }}">
         {{ course.data.title }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+  <h2>Clases</h2>
+  <ul>
+    {%- for class in collections.class -%}
+    <li>
+      <a href="{{ class.url }}">
+        {{ class.data.title }}
       </a>
     </li>
     {%- endfor -%}
