@@ -27,6 +27,6 @@ collections:
         name: "course"
         widget: "relation"
         collection: "course"
-        search_fields: ["titulo"]
-        value_field: "titulo"
-        display_fields: ["titulo", "start_date"]
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
