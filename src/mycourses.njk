@@ -1,11 +1,11 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+  <title>EscuelaConcepto</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -32,54 +32,45 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
+  <!-- <div data-netlify-identity-button>Login with Netlify Identity</div> -->
+  <div class="container">
     <div class="row">
-      <div class="col-3 m-0 p-0 bg-light min-vh-100">
-        <ol class="list-group list-group-numbered">
-          {%- for class in collections.class -%}
-          {% if class.data.course == course %}
-          <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-              {{ class.data.title }}
-            </div>
-            <a href="{{ class.url }}">
-              Ver
-            </a>
-          </li>
-          {% endif %}
-          {%- endfor -%}
-        </ol>
+      <div class="col-12 mb-4">
+      <h1>Cursos</h1>
       </div>
-      <div class="col p-5">
-        <div class="col-12 mb-4">
-          <h1>{{ title }}</h1>
-        </div>
-        <div class="col-12">
-          {{ content | safe }}
+      {%- for course in collections.course -%}
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{ course.data.title }}</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer text-end">
+            <a href="{{ course.url }}" class="btn btn-primary">Ir al curso</a>
+          </div>
         </div>
       </div>
+      {%- endfor -%}
     </div>
   </div>
   <script>
     if (window.netlifyIdentity) {
-      netlifyIdentity.on('init', user => {
-        // window.netlifyIdentity.init();
-        // const user = window.netlifyIdentity.currentUser();
-        console.log(user);
+      window.netlifyIdentity.on("init", user => {
         if (!user) {
-          document.location.href = '/';
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
         }
       });
     }
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
   <style>
     .netlify-identity-menu {
       display: flex;
       margin: 0;
     }
-  
+
     .netlify-identity-item {
       display: block;
       margin-left: 0.25rem;
@@ -88,7 +79,7 @@
       border: 1px solid #adb5bd;
       border-radius: 10px;
     }
-  
+
     .netlify-identity-item a {
       color: #212529;
       font-weight: bold;
@@ -97,4 +88,4 @@
   </style>
 </body>
 
-</html
+</html>
