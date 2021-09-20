@@ -1,5 +1,5 @@
 ---
-layout: class.njk
+layout: clase.njk
 title: Clase 1. Introducción a Gobierno Digital
 course: Gobierno Digital
 tags: class

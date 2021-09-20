@@ -1,5 +1,5 @@
 ---
-layout: course.njk
+layout: perfil-curso.njk
 title: Gobierno Digital
 start_date: 2021-07-14T21:25:48.630Z
 thumbnail: https://redciudadana.org/wp-content/uploads/2019/07/red-logo-01.png

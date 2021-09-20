@@ -1,5 +1,5 @@
 ---
-layout: class.njk
+layout: clase.njk
 title: Aprendiendo Netllify CMS
 course: Aprendiendo Netllify CMS
 tags: class

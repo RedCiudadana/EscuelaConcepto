@@ -1,5 +1,5 @@
 ---
-layout: course.njk
+layout: perfil-curso.njk
 title: Aprendiendo Netllify CMS
 start_date: 2021-07-14T06:51:14.087Z
 thumbnail: /uploads/zero_two.png
