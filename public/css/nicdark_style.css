@@ -200,6 +200,10 @@ p,a,input,label,.nicdark_second_font,.nicdark_datepicker,textarea{ font-family: 
 	font-weight: bold;
 }
 
+.nicdark_semibold {
+	font-weight: 500;
+}
+
 
 /* 3 FORMS ------------------------------------------------------- */
 
@@ -812,11 +816,11 @@ body {
 /*responsive*/
 .nicdark_navigation_4_sidebar > ul { list-style: none; margin: 0px; padding: 0px; }
 .nicdark_navigation_4_sidebar > ul > li { display: inline-block; }
-.nicdark_navigation_4_sidebar li a { color: #fff; font-size: 16px; font-family: 'Metropolis'; }
+.nicdark_navigation_4_sidebar li a { color: #06324f; font-size: 16px; font-family: 'Metropolis'; }
 .nicdark_navigation_4_sidebar li > a { padding: 10px 0px; display: inline-block; font-size: 24px; text-transform: lowercase; }
 .nicdark_navigation_4_sidebar > ul li > ul.nicdark_sub_menu { margin: 0px; padding: 0px; list-style: none; }
 .nicdark_navigation_4_sidebar > ul li > ul.nicdark_sub_menu > li { padding: 10px 20px; text-align: left; }
-.nicdark_navigation_4_sidebar > ul li > ul.nicdark_sub_menu li a { color: #fff; font-size: 14px; }
+.nicdark_navigation_4_sidebar > ul li > ul.nicdark_sub_menu li a { color: #06324f; font-size: 14px; }
 .nicdark_navigation_4_sidebar > ul li > ul.nicdark_sub_menu li > ul.nicdark_sub_menu {  }
 /*top header*/
 .nicdark_navigation_top_header_4 > ul { list-style: none; margin: 0px; padding: 0px; }
@@ -936,7 +940,7 @@ body {
 }
 
 /* 11.5 all responsive*/
-@media only screen and (min-width: 320px) and (max-width: 1199px) {
+@media only screen and (min-width: 320px) and (max-width: 960px) {
     
     .nicdark_display_none_all_responsive { display: none; }
     .nicdark_padding_0_20_responsive { padding: 0px 20px; }
@@ -978,4 +982,8 @@ body {
     .nicdark_position_relative_all_iphone { position: relative; }
     .nicdark_margin_top_20_all_iphone { margin-top: 20px; }
 
+}
+
+iframe {
+	width: 100%;
 }
