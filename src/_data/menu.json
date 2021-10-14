@@ -1,0 +1,14 @@
+{
+  "link": [
+    {
+      "external": false,
+      "name": "Inicio",
+      "link": "/"
+    },
+    {
+      "external": true,
+      "name": "Red Ciudadana",
+      "link": "http://redciudadana.org.gt/"
+    }
+  ]
+}
