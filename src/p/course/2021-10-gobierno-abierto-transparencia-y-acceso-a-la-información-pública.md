@@ -2,7 +2,7 @@
 layout: perfil-curso.njk
 tags: course
 title: Gobierno Abierto, Transparencia y Acceso a la Información Pública
-start_date: 2021-10-29T19:00:04.586Z
+start_date: 2020-10-15T00:00:04.586Z
 thumbnail: /uploads/banner.jpg
 ---
 El gobierno abierto constituye un nuevo paradigma que, basado en los principios de la transparencia y apertura, participación y colaboración, intenta responder al agotamiento de los modelos tradicionales de gobernanza en un mundo que está cambiando radical y vertiginosamente.
