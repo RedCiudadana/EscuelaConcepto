@@ -1,7 +1,7 @@
 ---
 layout: clase.njk
 tags: class
-title: Gobierno Abierto, Transparencia y Acceso a la Información Pública
+title: Introducción
 course: Gobierno Abierto, Transparencia y Acceso a la Información Pública
 ---
 ### Módulo 1. Gobierno Abierto es la respuesta… ¿Cuál era la pregunta?
