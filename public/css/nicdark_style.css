@@ -987,3 +987,84 @@ body {
 iframe {
 	width: 100%;
 }
+
+.footer-wrapper {
+	overflow: hidden; 
+}
+
+.footer-text p {
+	margin-top: 31px;
+	margin-right: 53px;
+	color: #a0aeb8;
+	margin-bottom: 33px; 
+}
+
+.footer-icon {
+	margin-left: 30px; 
+}
+.footer-icon a {
+	color: #a0aeb8;
+	font-size: 16px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 4px;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 2px solid #415164;
+	border-radius: 50%; 
+}
+.footer-icon a:last-child {
+	margin-right: 0; 
+}
+.footer-icon a:hover {
+	background: #ccc;
+	color: #ffffff;
+	border-color: #ccc; 
+}
+
+.footer-title {
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 22px; 
+}
+
+.contact-link li {
+	margin-bottom: 19px; 
+	list-style: none;
+}
+.contact-link li :last-child {
+	margin-bottom: 0; 
+}
+
+.contact-address-icon {
+	float: left;
+	margin-right: 15px; 
+}
+.contact-address-icon i {
+	font-size: 15px;
+	color: #ccc;
+	position: relative;
+	top: 1px; 
+}
+
+.contact-address-text {
+	overflow: hidden; 
+}
+.contact-address-text span {
+	font-size: 15px;
+	color: #a0aeb8;
+	font-weight: 400; 
+}
+
+.mt-25{
+	margin-top: 25px;
+}
+
+.mb-30{
+	margin-bottom: 30px;
+}
