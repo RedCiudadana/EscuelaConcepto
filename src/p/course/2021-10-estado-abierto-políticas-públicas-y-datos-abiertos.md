@@ -3,7 +3,7 @@ layout: perfil-curso.njk
 tags: course
 title: Estado Abierto, Políticas Públicas y Datos Abiertos
 start_date: 2020-10-15T00:00:00.633Z
-thumbnail: /uploads/banner.jpg
+thumbnail: /uploads/eip_web-11.png
 ---
 El gobierno abierto es un concepto amplio y en permanente redefinición. Hace referencia a una administración que establece constantes conversaciones con los ciudadanos, con las empresas y que, además, en la toma de decisiones tiene en consideración las necesidades y preferencias de otros actores. Por otra parte, facilita la colaboración de los usuarios/clientes/beneficiarios y funcionarios para la mejora en la planificación y prestación de diferentes servicios (incluidos los servicios públicos), y establece mecanismos de comunicación de forma abierta y transparente sobre todo lo que permite un mayor acercamiento y un mejor funcionamiento del ejercicio de Gobierno, de las instituciones y de la participación ciudadana.
 
