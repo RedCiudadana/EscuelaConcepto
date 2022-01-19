@@ -995,7 +995,7 @@ iframe {
 .footer-text p {
 	margin-top: 31px;
 	margin-right: 53px;
-	color: #a0aeb8;
+	color: #fff;
 	margin-bottom: 33px; 
 }
 
@@ -1003,7 +1003,7 @@ iframe {
 	margin-left: 30px; 
 }
 .footer-icon a {
-	color: #a0aeb8;
+	color: #fff;
 	font-size: 16px;
 	display: inline-block;
 	text-align: center;
@@ -1047,7 +1047,7 @@ iframe {
 }
 .contact-address-icon i {
 	font-size: 15px;
-	color: #ccc;
+	color: #fff;
 	position: relative;
 	top: 1px; 
 }
@@ -1057,7 +1057,7 @@ iframe {
 }
 .contact-address-text span {
 	font-size: 15px;
-	color: #a0aeb8;
+	color: #fff;
 	font-weight: 400; 
 }
 
@@ -1067,4 +1067,9 @@ iframe {
 
 .mb-30{
 	margin-bottom: 30px;
+}
+
+.button:hover{
+	background-color: #003151;
+	color: #fff;
 }
