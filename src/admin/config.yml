@@ -16,6 +16,7 @@ collections:
       - { label: "Imagen del curso", name: "thumbnail", widget: "image" }
       - { label: "Imagen del slider", name: "thumbnails", widget: "image" }
       - { label: "Descripcion", name: "body", widget: "markdown" }
+      - { label: "Url del Curso", name: "urlinscribete", widget: "string" }
   - name: "class" # Used in routes, e.g., /admin/collections/blog
     label: "Clase" # Used in the UI
     folder: "src/p/class" # The path to the folder where the documents are stored
