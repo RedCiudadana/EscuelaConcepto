@@ -12,8 +12,6 @@ course: Estado Abierto, Políticas Públicas y Datos Abiertos
 
 [Escuela de Innovación Pública -  Estado Abierto - M3 - Ricardo Barreno](https://www.youtube.com/embed/cUYuIgAY3Rs?feature=oembed)
 
-
-
 **Tecnologías para el Gobierno Abierto 1 y 2- Apertus MX**
 
 [Tecnologías para el Gobierno Abierto Parte 1](https://www.youtube.com/embed/Qwo-82_8qAQ?feature=oembed)
@@ -24,15 +22,11 @@ course: Estado Abierto, Políticas Públicas y Datos Abiertos
 
 **(9.27 minutos)**
 
-
-
 **Gobierno Abierto: Tecnologías para la Transparencia y Participación Ciudadana**
 
 [Gobierno Abierto: Tecnologías para la Transparencia y Participación Ciudadana](https://www.youtube.com/embed/OAImdvlI3ZY?feature=oembed)
 
 **(27.13 minutos)**
-
- 
 
 **Gobierno Abierto, Tecnologías de Información y Análisis de Políticas Públicas: Oportunidades y Retos para América Latina y el Caribe. Gabriel Puron del Cid. 2013.**
 
@@ -40,15 +34,11 @@ course: Estado Abierto, Políticas Públicas y Datos Abiertos
 
 Tiempo de lectura: 35 minutos
 
- 
-
 **Valor público, gobierno abierto y tecnologías digitales, Reflexión colectiva, CEPAL 2018**
 
 <https://www.cepal.org/sites/default/files/reflexiones_valor_publico_gobierno_abierto_y_tecnologias_digitales.pdf>
 
 Tiempo de lectura: 12 minutos aprox.
-
- 
 
 **La 7 apps que impulsa transparencia y gobierno abierto en 2019**
 
@@ -56,10 +46,10 @@ Tiempo de lectura: 12 minutos aprox.
 
 Tiempo de lectura: 8 minutos aprox.
 
- 
-
 **Opciones de Código Abierto para un gobierno abierto.**
 
 <https://u-gob.com/opciones-de-codigo-abierto-para-un-gobierno-abierto/>
 
 Tiempo de lectura: 10 minutos aprox.
+
+![](https://redciudadana.org/assets/ELEMENTOS/HOME/WEB-08.png)
