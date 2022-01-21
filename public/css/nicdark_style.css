@@ -1163,6 +1163,13 @@ a:focus {
 	color: #fff!important;
 }
 
+.linkssideactive{
+	color: #212529!important;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+
 .linksside:hover{
 	color: #212529!important;
 	text-decoration: none;
