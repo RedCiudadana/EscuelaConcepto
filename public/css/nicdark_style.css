@@ -1102,7 +1102,6 @@ a:focus {
     box-shadow: none;
     outline: none !important;
     border: none;
-	background-color: 00314f;
 }
 
 .line {
@@ -1125,7 +1124,7 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 500px;
-    background: #00314f;
+    background: #2d84c8;
     color: #fff;
     transition: all 0.3s;
 }
@@ -1136,7 +1135,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #00314f;
+    background: #2d84c8;
 }
 
 #sidebar ul.components {
@@ -1156,7 +1155,7 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #00314f;
+    color: #2d84c8;
     background: #fff;
 }
 
@@ -1172,7 +1171,7 @@ a:focus {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #00314f;
+    background: #2d84c8;
 }
 
 a[data-toggle="collapse"] {
@@ -1190,7 +1189,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #00314f;
+    background: #2d84c8;
 }
 
 ul.CTAs {
@@ -1207,12 +1206,12 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #00314f;
+    color: #2d84c8;
 }
 
 a.article,
 a.article:hover {
-    background: #00314f !important;
+    background: #2d84c8 !important;
     color: #fff !important;
 }
 
@@ -1256,9 +1255,9 @@ a.article:hover {
 
 .scrollbar::-webkit-scrollbar-track {
     background-color: #fff;
-	color: #00314f;
+	color: #0070c5;
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
-    box-shadow: inset 0 0 6px #00314f;
+    box-shadow: inset 0 0 6px #0070c5;
 }
