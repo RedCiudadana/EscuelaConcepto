@@ -285,6 +285,59 @@
                 <!--start nicdark_container-->
                 <div class="nicdark_container nicdark_clearfix">
 
+                    <!-- SIDEBAR -->
+                    <div
+                        class="nicdark_width_33_percentage nicdark_width_100_percentage_ipad_port nicdark_width_100_percentage_all_iphone nicdark_float_left">
+
+
+                        <div class="nicdark_section nicdark_padding_15 nicdark_box_sizing_border_box">
+
+                            <div class="nicdark_section nicdark_height_60"></div>
+
+                            <div class="nicdark_section nicdark_height_13"></div>
+
+                            <div class="nickdar_section">
+                                <h4>{{ course }}</h4>
+                                {%- for _course in collections.course -%}
+                                {% if _course.data.title == course %}
+                                <a href="{{ _course.url }}">
+                                    Regresar
+                                </a>
+                                {% endif %}
+                                {%- endfor -%}
+                            </div>
+                            <div class="nicdark_section nicdark_height_13"></div>
+                            <table class="nicdark_section">
+                                <tbody>
+                                    {%- for class in collections.class -%}
+                                    {% if class.data.course == course %}
+                                    <tr
+                                        class="nicdark_border_bottom_2_solid_grey {% if class.url == page.url %} nicdark_box_sizing_border_box nicdark_bg_grey nicdark_border_top_1_solid_grey {% endif %}">
+                                        <td class="nicdark_padding_10 ">
+                                            <h4 class=" nicdark_text_align_left">{{ class.data.title }}</h4>
+                                        </td>
+                                        <td class=" nicdark_text_align_right">
+                                            <a href="{{ class.url }}">
+                                                Ver
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                    {%- endfor -%}
+                                </tbody>
+                            </table>
+
+
+                            <div class="nicdark_section nicdark_height_20"></div>
+                        </div>
+
+
+
+                        <div class="nicdark_section nicdark_height_50"></div>
+
+
+                    </div>
+
                     <!-- CONTENT -->
                     <div
                         class="nicdark_width_66_percentage nicdark_width_100_percentage_ipad_port nicdark_width_100_percentage_all_iphone nicdark_float_left">
@@ -420,58 +473,7 @@
                         </div>
                     </div>
 
-                    <!-- SIDEBAR -->
-                    <div
-                        class="nicdark_width_33_percentage nicdark_width_100_percentage_ipad_port nicdark_width_100_percentage_all_iphone nicdark_float_left">
-
-
-                        <div class="nicdark_section nicdark_padding_15 nicdark_box_sizing_border_box">
-
-                            <div class="nicdark_section nicdark_height_60"></div>
-
-                            <div class="nicdark_section nicdark_height_13"></div>
-
-                            <div class="nickdar_section">
-                                <h4>{{ course }}</h4>
-                                {%- for _course in collections.course -%}
-                                {% if _course.data.title == course %}
-                                <a href="{{ _course.url }}">
-                                    Regresar
-                                </a>
-                                {% endif %}
-                                {%- endfor -%}
-                            </div>
-                            <div class="nicdark_section nicdark_height_13"></div>
-                            <table class="nicdark_section">
-                                <tbody>
-                                    {%- for class in collections.class -%}
-                                    {% if class.data.course == course %}
-                                    <tr
-                                        class="nicdark_border_bottom_2_solid_grey {% if class.url == page.url %} nicdark_box_sizing_border_box nicdark_bg_grey nicdark_border_top_1_solid_grey {% endif %}">
-                                        <td class="nicdark_padding_10 ">
-                                            <h4 class=" nicdark_text_align_left">{{ class.data.title }}</h4>
-                                        </td>
-                                        <td class=" nicdark_text_align_right">
-                                            <a href="{{ class.url }}">
-                                                Ver
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    {% endif %}
-                                    {%- endfor -%}
-                                </tbody>
-                            </table>
-
-
-                            <div class="nicdark_section nicdark_height_20"></div>
-                        </div>
-
-
-
-                        <div class="nicdark_section nicdark_height_50"></div>
-
-
-                    </div>
+                    
 
 
 
