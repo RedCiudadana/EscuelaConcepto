@@ -455,27 +455,29 @@
                                             <end-->
                                         </div>
                                         
-                                        {% set previousClass = collections.class | getPreviousCollectionItem(page) %}
-                                        {% if previousClass %}
-                                            <a href="{{previousClass.url}} "><button type="button" class="btn btn-info">
-                                            <i class="fas fa-arrow-left"></i>
-                                            <span> Anterior </span>
-                                            </button></a>
-                                        {% endif %}
-                                        
-                                        <button type="button" id="sidebarCollapse" class="btn btn-info">
-                                            <i class="fas fa-align-left"></i>
-                                            <span>Listado de clases</span>
-                                        </button>
-                                        
-                                        {% set nextClass = collections.class | getNextCollectionItem(page) %}
-                                        {% if nextClass %}
-                                            <a href="{{nextClass.url}} ">
-                                            <button type="button" class="btn btn-info">                                    
-                                            <span>Siguiente</span>
-                                            <i class="fas fa-arrow-right"></i>
-                                            </button></a>
-                                        {% endif %}
+                                        <div>
+                                            {% set previousClass = collections.class | getPreviousCollectionItem(page) %}
+                                            {% if previousClass %}
+                                                <a href="{{previousClass.url}} "><button type="button" class="btn btn-info">
+                                                <i class="fas fa-arrow-left"></i>
+                                                <span> Anterior </span>
+                                                </button></a>
+                                            {% endif %}
+                                            
+                                            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                                                <i class="fas fa-align-left"></i>
+                                                <span>Listado de clases</span>
+                                            </button>
+                                            
+                                            {% set nextClass = collections.class | getNextCollectionItem(page) %}
+                                            {% if nextClass %}
+                                                <a href="{{nextClass.url}} ">
+                                                <button type="button" class="btn btn-info">                                    
+                                                <span>Siguiente</span>
+                                                <i class="fas fa-arrow-right"></i>
+                                                </button></a>
+                                            {% endif %}
+                                        </div>
                                     </div>
                                      
                                     <!--END tab-->
