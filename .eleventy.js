@@ -6,6 +6,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ './public/js': 'js' });
   eleventyConfig.addPassthroughCopy({ './public/img': 'img' });
 
+  /*
+  eleventyConfig.addCollection("", function(collectionApi) {
+    return collectionApi.getFilteredByTag('');
+  });*/
+
   // dt.toLocaleString(DateTime.DATE_SHORT); //=>  '4/20/2017'
   eleventyConfig.addFilter("date_format", (date) => {
     if (!date) {
