@@ -1086,6 +1086,11 @@ iframe {
 	color: #fff!important;
 }
 
+.amarillo:hover{
+	color: #fca829!important;
+	text-decoration: none!important;
+}
+
 .btn-info:hover{
 	background-color: #ffa013!important;
 	border-color: #ffa013!important;
