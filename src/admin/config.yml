@@ -35,3 +35,6 @@ collections:
         value_field: "title"
         display_fields: ["title"]
     sortable_fields: ['course','title']
+    view_groups:
+      - label: Curso
+        field: course
