@@ -34,5 +34,4 @@ collections:
         search_fields: ["title"]
         value_field: "title"
         display_fields: ["title"]
-    sortable_fields: ['course']
-    search: true
+    sortable_fields: ['course,title']
