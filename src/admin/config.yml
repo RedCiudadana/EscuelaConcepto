@@ -37,6 +37,3 @@ collections:
     view_groups:
       - label: Curso
         field: course
-    view_filters:
-      - label: Curso
-        field: course
