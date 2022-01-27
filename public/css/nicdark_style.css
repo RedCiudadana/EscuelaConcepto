@@ -570,6 +570,7 @@ body {
 .nicdark_border_0 { border: 0px solid #fff; }
 .nicdark_border_1_solid_white { border: 1px solid #fff; }
 .nicdark_border_2_solid_white { border: 2px solid #fff; }
+.nicdark_border_2_solid_white:hover { color: #fff!important; }
 .nicdark_border_2_solid_white_hover:hover { border: 2px solid #fff; }
 .nicdark_border_1_solid_white { border: 1px solid #06324f; }
 .nicdark_border_2_solid_white { border: 2px solid #06324f; }
