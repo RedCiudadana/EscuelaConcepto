@@ -313,12 +313,7 @@
                                     {%- for class in collections.class -%}
                                     {% if class.data.course == course %}
                                     <li>
-                                        <a class="linksside " href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
-                                    </li>                                     
-                                    {% endif %}
-                                    {% if class.url == currentclass.url%}
-                                    <li>
-                                        <a class=" linkssideactive" href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
+                                        <a class="linksside {% if class.url == currentclass.url %} linkssideactive {% endif %}" href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
                                     </li>                                     
                                     {% endif %}
                                     {%- endfor -%}
