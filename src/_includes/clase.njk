@@ -458,11 +458,12 @@
                                         
                                         <div>
                                             <!--
+                                            {% set currentclass = collections.class | getCollectionItem(page) %}
                                             {%- for class in collections.class -%}
                                             {% if class.data.course == course %}
                                             <li>
-                                                <a class="linksside" href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
-                                            </li>
+                                                <a class="linksside {% if class.url == currentclass.url %} linkssideactive {% endif %}" href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
+                                            </li>                                     
                                             {% endif %}
                                             {%- endfor -%}
                                             -->
