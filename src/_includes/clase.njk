@@ -1,3 +1,9 @@
+---
+tags:
+  - {{title}} 
+  - clases
+---
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -456,17 +462,13 @@
                                             <end-->
                                         </div>
                                         
+                                        {% set currentclass = collections.class | getCollectionItem(page) %}
+                                        {%- for class in collections[class.course] -%}
+                                            <div>{{class.data.title}}</div>
+                                        {%- endfor -%}
+
                                         <div>
-                                            <!--
-                                            {% set currentclass = collections.class | getCollectionItem(page) %}
-                                            {%- for class in collections.class -%}
-                                            {% if class.data.course == course %}
-                                            <li>
-                                                <a class="linksside {% if class.url == currentclass.url %} linkssideactive {% endif %}" href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
-                                            </li>                                     
-                                            {% endif %}
-                                            {%- endfor -%}
-                                            -->
+                                            
                                             {% set previousClass = collections.class | getPreviousCollectionItem(page) %}
                                             {% if previousClass %}
                                                 <a href="{{previousClass.url}} "><button type="button" class="btn btn-info">

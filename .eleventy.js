@@ -1,5 +1,11 @@
 const { DateTime } = require("luxon");
 
+const cursos = [
+  "Estado Abierto, Políticas Públicas y Datos Abiertos",
+  "Gobierno Abierto, Transparencia y Acceso a la Información Pública",
+  "Justicia Abierta, Transparencia y Datos Abiertos",
+];
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('uploads');
   eleventyConfig.addPassthroughCopy({ './public/css': 'css' });
@@ -21,6 +27,17 @@ module.exports = function(eleventyConfig) {
 
     var dt = DateTime.fromJSDate(new Date(date));
     return dt.toLocaleString(DateTime.DATE_SHORT);
+  });
+
+  cursos.forEach((curso) => {
+    eleventyConfig.addCollection(curso, function (collectionApi) {
+
+        let collection = collectionApi.getFilteredByTags('clases').filter(function (item) {
+            return item.data.course === curso;
+        });
+
+        return collection;
+    });
   });
 
   return {
