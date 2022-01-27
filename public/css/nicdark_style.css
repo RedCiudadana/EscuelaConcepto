@@ -1192,6 +1192,10 @@ a:focus {
 	text-decoration: none;
 }
 
+.linkssideactive:hover{
+	text-decoration: none;
+}
+
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;

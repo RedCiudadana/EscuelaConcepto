@@ -309,11 +309,17 @@
                             <li class="active">
                                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="color:#fff!important">Clases</a>
                                 <ul class="collapse list-unstyled scrollbar" id="homeSubmenu">
+                                    {% set currentclass = collections.class | getCollectionItem(page) %}
                                     {%- for class in collections.class -%}
                                     {% if class.data.course == course %}
                                     <li>
-                                        <a class="linksside" href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
-                                    </li>
+                                        <a class="linksside " href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
+                                    </li>                                     
+                                    {% endif %}
+                                    {% if class.url == currentclass.url%}
+                                    <li>
+                                        <a class=" linkssideactive" href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
+                                    </li>                                     
                                     {% endif %}
                                     {%- endfor -%}
                                 </ul>
@@ -456,6 +462,15 @@
                                         </div>
                                         
                                         <div>
+                                            <!--
+                                            {%- for class in collections.class -%}
+                                            {% if class.data.course == course %}
+                                            <li>
+                                                <a class="linksside" href="{{ class.url}}"><span class=" nicdark_text_align_left">{{ class.data.title }}</span></a>
+                                            </li>
+                                            {% endif %}
+                                            {%- endfor -%}
+                                            -->
                                             {% set previousClass = collections.class | getPreviousCollectionItem(page) %}
                                             {% if previousClass %}
                                                 <a href="{{previousClass.url}} "><button type="button" class="btn btn-info">
