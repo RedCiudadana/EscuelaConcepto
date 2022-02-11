@@ -1,0 +1,7 @@
+{
+  "layout": "clase.njk",
+  "tags": "class",
+  "title": "Prueba",
+  "body": "<!--StartFragment-->\n\n## tl;dr\n\nIf you prefer to jump straight to the code, you can!\n\n* Try this out on the [live demo](https://stripe-subscriptions.netlify.app/)\n* Check out the [source code on GitHub](https://github.com/stripe-samples/netlify-stripe-subscriptions)\n* [Watch Thor and Jason build this live on *Learn With Jason*](https://www.learnwithjason.dev/subscription-management-in-jamstack-apps)\n\n<!--EndFragment-->",
+  "course": "Estado Abierto, Políticas Públicas y Datos Abiertos"
+}
