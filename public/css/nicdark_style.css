@@ -1337,3 +1337,14 @@ a.article:hover {
 .text-white{
 	color:#fff!important;
 }
+
+video.fullscreen {
+	position: absolute;
+	z-index: -1;
+	object-fit: cover;
+	width:100%;
+	height:100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
