@@ -1401,6 +1401,28 @@ a.article:hover {
 	.go-away{
 		display: none!important;
 	}
+
+	.go-away2{
+		display: none!important;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.padding-responsive{
+		padding:15rem 0 8rem 0;
+	}
+
+	.padding-responsive p{
+		font-size: 15px;
+	}
+
+	.p-5{
+		padding-bottom: 15px!important;
+	}
+
+	.go-away2{
+		display: none!important;
+	}
 }
 
 @media only screen and (max-width: 960px) {
@@ -1408,4 +1430,13 @@ a.article:hover {
 		border-left: none!important;
 		border-right: none!important;
 	}
+}
+
+hr{
+	border: 4px solid #00AE8C;
+	border-radius: 2px;
+	width: 60px;
+	border-top-width: 0!important;
+	position: absolute;
+	margin-right: auto;
 }
