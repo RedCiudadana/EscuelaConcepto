@@ -1348,3 +1348,31 @@ video.fullscreen {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+.seccion-inicial{
+	text-align: center;
+	padding: 0 40px;
+}
+
+.borders{
+	border-left: 1px solid #003151!important;
+	border-right: 1px solid #003151!important;
+}
+
+.seccion-inicial img{
+	height: 50px;
+}
+
+.seccion-inicial h4{
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: 600;
+	color: #003151;
+}
+
+.seccion-inicial p{
+	font-size: 15px;
+	margin: 10px 0;
+	line-height: 18px;
+	color: #003151;
+}
