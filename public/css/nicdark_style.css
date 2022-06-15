@@ -1440,3 +1440,46 @@ hr{
 	position: absolute;
 	margin-right: auto;
 }
+
+.border-top{
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+}
+
+.border-bottom{
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+
+.pad-5{
+	margin: 25px;
+}
+
+.title-course{
+	font-weight: 600;
+}
+
+.text-course p{
+	line-height: 15px;
+	font-size: 15px!important;
+}
+
+.linea{
+	border-bottom: #00AE8C 3px solid;
+	width: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.text-fecha i,.text-fecha p{
+	color: #00AE8C!important;
+}
+
+.text-fecha i{
+	padding-right: 10px;
+}
+
+.text-fecha p{
+	font-size: 15px;
+	font-weight: 100;
+}
