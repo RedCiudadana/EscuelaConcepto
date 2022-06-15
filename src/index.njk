@@ -102,7 +102,8 @@ permalink: "index.html"
             <div class="nicdark_section nicdark_height_50"></div>
 
             <div class="nicdark_section" style="background:#f1f4fb">
-                <div class="nicdark_section nicdark_height_30"></div>
+                <div class="nicdark_section nicdark_height_50"></div>
+                <div class="nicdark_section nicdark_height_50"></div>
                 <div class="nicdark_container nicdark_clearfix">
 
 
@@ -153,14 +154,70 @@ permalink: "index.html"
                     {% endfor %}
 
                     
-                <div class="nicdark_section nicdark_height_30"></div>
-
+                <div class="nicdark_section nicdark_height_50"></div>
+                <div class="nicdark_section nicdark_height_50"></div>
                 </div>
             </div>
 
-            <div class="nicdark_section nicdark_background_size_cover nicdark_background_position_center_bottom"
-                style="background-image:url(img/parallax/img2.png);">
+            <div class="nicdark_section nicdark_height_50"></div>
+            <div class="nicdark_section nicdark_height_50"></div>
+
+            <div class="nicdark_section" style="background:#fff">
+                <div class="nicdark_container nicdark_clearfix">
+                    
+                    
+
+                    <div class="grid grid_12" style="text-align:left">
+
+                        <h1 class="nicdark_font_size_40"><strong>Últimos Eventos</strong></h1>
+                        <hr>
+                        <div class="nicdark_section nicdark_height_10"></div>
+                    </div>
+
+                    <!--{{course.data.thumbnail}}  {{ course.url }}  {{course.data.title}}  {{ course.templateContent | safe}}-->
+                    {% for course in collections.course %}
+                    <div class="nicdark_width_33_percentage nicdark_width_100_percentage_responsive nicdark_float_left" >
+
+                        <div class="nicdark_section nicdark_padding_15 nicdark_box_sizing_border_box" style="height:100%">
+
+                            <!--start preview-->
+                            <div class="nicdark_section nicdark_border_1_solid_grey_2 nicdark_border_radius_30 border-top border-bottom" style="background:#fff">
+
+                                <!--image-->
+                                <div class="nicdark_section border-top" style="height: 200px; overflow: hidden; width: 100%; text-align: center;">
+                                    <img src="{{course.data.thumbnail}}" style="height: calc(100% - 10px);width:100%">
+                                </div>
+                                <!--texto-->
+                                <div class="nicdark_section nicdark_padding_15 nicdark_box_sizing_border_box">
+                                    <h4 class="title-course">{{course.data.title}}</h4>
+                                    <div class="linea"></div>
+                                    <div class="nicdark_section nicdark_height_10"></div>
+                                    <div class="nicdark_section nicdark_height_60 nicdark_overflow_hidden nicdark_line_height_20 text-course">
+                                        {{ course.templateContent | safe}}
+                                    </div>
+                                    <div class="nicdark_section nicdark_height_10"></div>
+                                    <div class="text-fecha">        
+                                        <p><i class="fa-solid fa-calendar"></i>Inicio: {{ course.data.start_date | date_format }}</p>
+                                    </div>
+                                </div>
+
+                                
+
+
+
+                            </div>
+                            <!--start preview-->
+
+                        </div>
+
+                    </div>
+                    {% endfor %}
+
+                    
+                </div>
             </div>
 
+            <div class="nicdark_section nicdark_height_50"></div>
+            <div class="nicdark_section nicdark_height_50"></div>
 
 {% endblock %}
