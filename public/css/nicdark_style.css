@@ -1451,6 +1451,17 @@ hr{
 	border-bottom-right-radius: 35px;
 }
 
+.border-top2{
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+}
+
+.border-bottom2{
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+
+
 .pad-5{
 	margin: 25px;
 }
@@ -1482,4 +1493,12 @@ hr{
 .text-fecha p{
 	font-size: 15px;
 	font-weight: 100;
+}
+
+#cuadros .border-top:hover{
+	box-shadow: 5px 5px 5px #ccc;
+}
+
+#cuadros .border-bottom:hover{
+	box-shadow: 5px 5px 5px #ccc;
 }
