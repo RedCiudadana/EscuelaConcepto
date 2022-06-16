@@ -4,7 +4,7 @@ tags: course
 title: Justicia Abierta, Transparencia y Datos Abiertos
 start_date: 2020-10-15T00:00:00.000Z
 thumbnail: /uploads/03.png
-thumbnails: /uploads/eip_web-16.png
+thumbnails: /uploads/banner02.png
 ---
 La justicia abierta, que va de la mano del acceso a la justicia, es mucho más que datos abiertos, transparencia, gobierno abierto, o la cooperación entre las ramas ejecutiva y judicial del poder público de cualquier país.
 
