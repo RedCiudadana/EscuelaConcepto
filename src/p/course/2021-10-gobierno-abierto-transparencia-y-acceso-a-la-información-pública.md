@@ -4,7 +4,7 @@ tags: course
 title: Gobierno Abierto, Transparencia y Acceso a la Información Pública
 start_date: 2020-10-15T00:00:04.586Z
 thumbnail: /uploads/02.png
-thumbnails: /uploads/eip_web-17.png
+thumbnails: /uploads/banner01.png
 ---
 El gobierno abierto constituye un nuevo paradigma que, basado en los principios de la transparencia y apertura, participación y colaboración, intenta responder al agotamiento de los modelos tradicionales de gobernanza en un mundo que está cambiando radical y vertiginosamente.
 
