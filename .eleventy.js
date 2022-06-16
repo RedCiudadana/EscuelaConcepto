@@ -32,7 +32,7 @@ module.exports = function(eleventyConfig) {
   cursos.forEach((curso) => {
     eleventyConfig.addCollection(curso, function (collectionApi) {
 
-        let collection = collectionApi.getFilteredByTags('clases').filter(function (item) {
+        let collection = collectionApi.getFilteredByTags('class').filter(function (item) {
             return item.data.course === curso;
         });
 
