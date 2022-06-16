@@ -1334,6 +1334,18 @@ a.article:hover {
 	background-color: #0e8069;
 }
 
+.button-new2{
+	background-color: #00AE8C;
+	color: #fff!important;
+	padding: 10px 15px;
+	border-radius: 4px;
+	transition: 0.3s
+}
+
+.button-new2:hover{
+	background-color: #0e8069;
+}
+
 .text-white{
 	color:#fff!important;
 }
@@ -1501,4 +1513,14 @@ hr{
 
 #cuadros .border-bottom:hover{
 	box-shadow: 5px 5px 5px #ccc;
+}
+
+.contenido a{
+	color: #00AE8C!important;
+	transition: 0.3s;
+}
+
+.contenido a:hover{
+	color: #000!important;
+	text-decoration: none;
 }

@@ -323,7 +323,7 @@ tags:
                                     <!--START tab-->
                                     <div class="nicdark_tabs">
                                         <div class="nicdark_section nicdark_height_40"></div>
-                                        <div class="nicdark_section" id="tabs-1">
+                                        <div class="nicdark_section contenido" id="tabs-1">
                                             <div class="nicdark_section nicdark_height_20"></div>
                                             <p>
                                                 {{ content | safe }}
@@ -380,13 +380,13 @@ tags:
                                             
                                             {% set previousClass = collections.class | getPreviousCollectionItem(page) %}
                                             {% if previousClass %}
-                                                <a href="{{previousClass.url}} "><button type="button" class="btn btn-info">
+                                                <a href="{{previousClass.url}} "><button type="button" class="btn button-new2">
                                                 <i class="fas fa-arrow-left"></i>
                                                 <span> Anterior </span>
                                                 </button></a>
                                             {% endif %}
                                             
-                                            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                                            <button type="button" id="sidebarCollapse" class="btn button-new2">
                                                 <i class="fas fa-align-left"></i>
                                                 <span>Listado de clases</span>
                                             </button>
@@ -394,7 +394,7 @@ tags:
                                             {% set nextClass = collections.class | getNextCollectionItem(page) %}
                                             {% if nextClass %}
                                                 <a href="{{nextClass.url}} ">
-                                                <button type="button" class="btn btn-info">                                    
+                                                <button type="button" class="btn button-new2">                                    
                                                 <span>Siguiente</span>
                                                 <i class="fas fa-arrow-right"></i>
                                                 </button></a>
