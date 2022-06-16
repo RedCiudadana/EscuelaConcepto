@@ -1151,7 +1151,7 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 500px;
-    background: #2d84c8;
+    background: #00AE8C;
     color: #fff;
     transition: all 0.3s;
 }
@@ -1162,12 +1162,12 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #2d84c8;
+    background: #00AE8C;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #00AE8C;
 }
 
 #sidebar ul p {
@@ -1182,7 +1182,7 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #2d84c8;
+    color: #00AE8C;
     background: #fff;
 }
 
@@ -1209,7 +1209,7 @@ a:focus {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #2d84c8;
+    background: #00AE8C;
 }
 
 a[data-toggle="collapse"] {
@@ -1227,7 +1227,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #2d84c8;
+    background: #00AE8C;
 }
 
 ul.CTAs {
@@ -1244,12 +1244,12 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #2d84c8;
+    color: #00AE8C;
 }
 
 a.article,
 a.article:hover {
-    background: #2d84c8 !important;
+    background: #00AE8C !important;
     color: #fff !important;
 }
 
@@ -1293,11 +1293,11 @@ a.article:hover {
 
 .scrollbar::-webkit-scrollbar-track {
     background-color: #fff;
-	color: #0070c5;
+	color: #00AE8C;
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
-    box-shadow: inset 0 0 6px #0070c5;
+    box-shadow: inset 0 0 6px #00AE8C;
 }
 
 .center{
@@ -1378,7 +1378,7 @@ a.article:hover {
 }
 
 .padding-responsive{
-	padding:15rem 0;
+	padding:10rem 0 15rem 0;
 }
 
 .p-5{
@@ -1387,7 +1387,7 @@ a.article:hover {
 
 @media only screen and (max-width: 960px) {
 	.padding-responsive{
-		padding:15rem 0 5rem 0;
+		padding:10rem 0 5rem 0;
 	}
 
 	.padding-responsive p{
@@ -1407,9 +1407,9 @@ a.article:hover {
 	}
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 960px) and (max-width: 1100px){
 	.padding-responsive{
-		padding:15rem 0 8rem 0;
+		padding:4rem 0;
 	}
 
 	.padding-responsive p{
