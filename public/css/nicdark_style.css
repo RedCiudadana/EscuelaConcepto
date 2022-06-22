@@ -1524,3 +1524,12 @@ hr{
 	color: #000!important;
 	text-decoration: none;
 }
+
+.active{
+	background-color: #f1f5fb;
+	color: #06324f!important;
+}
+
+.d-none{
+	display: none;
+}

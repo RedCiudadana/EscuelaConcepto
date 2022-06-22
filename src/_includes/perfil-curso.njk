@@ -330,15 +330,16 @@
 
                                 <!--START tab-->
                                 <div class="nicdark_tabs">
+                                    <div class="nicdark_section nicdark_height_40" id="tabs"></div>
                                     <ul
                                         class="nicdark_list_style_none nicdark_margin_0 nicdark_padding_0 nicdark_section nicdark_border_bottom_2_solid_grey">
                                         <li class="nicdark_display_inline_block">
-                                            <h4><a class="nicdark_outline_0 nicdark_padding_20 nicdark_display_inline_block nicdark_first_font nicdark_color_greydark"
-                                                    href="#tabs-1">Descripción</a></h4>
+                                            <h4><a class="nicdark_outline_0 nicdark_padding_20 nicdark_display_inline_block nicdark_first_font nicdark_color_greydark active"
+                                                id="descripcion" href="#tabs" onclick="cambioTabD();">Descripción</a></h4>
                                         </li>
                                         <li class="nicdark_display_inline_block">
                                             <h4><a class="nicdark_outline_0 nicdark_padding_20 nicdark_display_inline_block nicdark_first_font nicdark_color_greydark"
-                                                    href="#tabs-2">Programa</a></h4>
+                                                id="programa" href="#tabs" onclick="cambioTabP();">Programa</a></h4>
                                         </li>
                                     </ul>
 
@@ -355,7 +356,8 @@
 
                                         <div class="nicdark_section nicdark_height_30"></div>
                                     </div>
-                                    <div class="nicdark_section" id="tabs-2">
+
+                                    <div class="nicdark_section d-none" id="tabs-2" >
 
                                         <!--START program-->
                                         <h3><strong>Programa</strong></h3>
@@ -602,6 +604,38 @@
 
     <!--js-->
     <script src="js/nicdark_plugins.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+    
+    function cambioTabD(){
+        tab1 = document.getElementById("tabs-1");
+        tab2 = document.getElementById("tabs-2");
+        descripcion = document.getElementById("descripcion");
+        programa = document.getElementById("programa");
+
+        if(!descripcion.classList.contains("active")){
+            descripcion.classList.add("active")
+            programa.classList.remove("active")
+            tab1.classList.remove("d-none")
+            tab2.classList.add("d-none")
+        }
+    }
+
+    function cambioTabP(){
+        tab1 = document.getElementById("tabs-1");
+        tab2 = document.getElementById("tabs-2");
+        descripcion = document.getElementById("descripcion");
+        programa = document.getElementById("programa");
+
+        if(!programa.classList.contains("active")){
+            descripcion.classList.remove("active")
+            programa.classList.add("active")
+            tab1.classList.add("d-none")
+            tab2.classList.remove("d-none")
+        }
+    }
+    
+    </script>
 
 </body>
 
