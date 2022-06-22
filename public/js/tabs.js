@@ -9,6 +9,7 @@ function cambioTabD(){
         programa.classList.remove("active")
         tab1.classList.remove("d-none")
         tab2.classList.add("d-none")
+        location.href = "#t";
     }
 }
 
@@ -23,5 +24,6 @@ function cambioTabP(){
         programa.classList.add("active")
         tab1.classList.add("d-none")
         tab2.classList.remove("d-none")
+        location.href = "#t";
     }
 }
