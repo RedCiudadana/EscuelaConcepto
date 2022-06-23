@@ -1397,11 +1397,19 @@ a.article:hover {
 	padding-bottom: 25px;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 760px){
 	.padding-responsive{
 		padding:10rem 0 5rem 0;
 	}
+}
 
+@media only screen and (min-width: 760px) and (max-width: 960px){
+	.fullscreen{
+		height: 500px;
+	}
+	.padding-responsive{
+		padding:10rem 0 13rem 0;
+	}
 	.padding-responsive p{
 		font-size: 15px;
 	}
@@ -1420,6 +1428,13 @@ a.article:hover {
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1100px){
+	.fullscreen{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		top: 50px;
+	}
+	
 	.padding-responsive{
 		padding:4rem 0;
 	}
