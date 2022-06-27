@@ -1401,6 +1401,13 @@ a.article:hover {
 	.padding-responsive{
 		padding:10rem 0 5rem 0;
 	}
+	.go-away{
+		display: none!important;
+	}
+
+	.go-away2{
+		display: none!important;
+	}
 }
 
 @media only screen and (min-width: 760px) and (max-width: 960px){
