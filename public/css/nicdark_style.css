@@ -1399,7 +1399,7 @@ a.article:hover {
 
 @media only screen and (max-width: 760px){
 	.padding-responsive{
-		padding:10rem 0 5rem 0;
+		padding:10rem 0 10rem 0;
 	}
 	.go-away{
 		display: none!important;
