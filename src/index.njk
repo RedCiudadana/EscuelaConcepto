@@ -178,46 +178,21 @@ permalink: "index.html"
                         <div class="nicdark_section nicdark_height_10"></div>
                     </div>
 
-                    <!--{{course.data.thumbnail}}  {{ course.url }}  {{course.data.title}}  {{ course.templateContent | safe}}-->
-                    {% for course in collections.course %}
-                    <a href="{{course.url}}">
-                    <div class="nicdark_width_33_percentage nicdark_width_100_percentage_responsive nicdark_float_left" >
-
+                    <div class="nicdark_width_50_percentage nicdark_width_100_percentage_responsive nicdark_float_left">
                         <div id="cuadros" class="nicdark_section nicdark_padding_20 nicdark_box_sizing_border_box" style="height:100%">
-
-                            <!--start preview-->
-                            <div class="nicdark_section nicdark_border_1_solid_grey_2 nicdark_border_radius_30 border-top border-bottom" style="background:#fff">
-
-                                <!--image-->
-                                <div class="nicdark_section border-top2" style="height: 200px; overflow: hidden; width: 100%; text-align: center;">
-                                    <img src="{{course.data.thumbnail}}" style="height: calc(100% - 10px);width:100%">
-                                </div>
-                                <!--texto-->
-                                <div class="nicdark_section nicdark_padding_30 nicdark_box_sizing_border_box">
-                                    <h4 class="title-course">{{course.data.title}}</h4>
-                                    <div class="linea"></div>
-                                    <div class="nicdark_section nicdark_height_10"></div>
-                                    <div class="nicdark_section nicdark_height_60 nicdark_overflow_hidden nicdark_line_height_20 text-course">
-                                        {{ course.templateContent | safe}}
-                                    </div>
-                                    <div class="nicdark_section nicdark_height_10"></div>
-                                    <div class="text-fecha">        
-                                        <p><i class="fa-solid fa-calendar"></i>Inicio: {{ course.data.start_date | date_format }}</p>
-                                    </div>
-                                </div>
-
-                                
-
-
-
+                            <div class="nicdark_section nicdark_border_1_solid_grey_2 nicdark_border_radius_30 border-top border-bottom" style="background:#fff;">
+                                <iframe class="border-top border-bottom" height="300" src="https://www.youtube.com/embed/jJHiFi5qKSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>
                             </div>
-                            <!--start preview-->
-
                         </div>
-
                     </div>
-                    </a>
-                    {% endfor %}
+
+                    <div class="nicdark_width_50_percentage nicdark_width_100_percentage_responsive nicdark_float_left" >
+                        <div id="cuadros" class="nicdark_section nicdark_padding_20 nicdark_box_sizing_border_box" style="height:100%">
+                            <div class="nicdark_section nicdark_border_1_solid_grey_2 nicdark_border_radius_30 border-top border-bottom" style="background:#fff">
+                                <iframe class="border-top border-bottom" height="300" src="https://www.youtube.com/embed/A0mN9eltt2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                            </div>
+                        </div>
+                    </div>
 
                     
                 </div>
