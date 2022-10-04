@@ -22,7 +22,7 @@ collections:
       - { label: "Imagen del slider", name: "thumbnails", widget: "image" }
       - { label: "Descripcion", name: "body", widget: "markdown" }
       - {
-          label: "Url del Curso",
+          label: "Url de incripsción del Curso",
           name: "urlinscribete",
           widget: "string",
           required: false,

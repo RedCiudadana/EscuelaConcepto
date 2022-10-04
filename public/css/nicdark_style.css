@@ -1372,12 +1372,12 @@ a.article:hover {
 }
 
 .seccion-inicial img{
-	height: 50px;
+	height: 150px;
 }
 
 .seccion-inicial h4{
 	font-size: 20px;
-	margin: 10px 0;
+	margin: 20px 0;
 	font-weight: 600;
 	color: #003151;
 }
@@ -1390,7 +1390,7 @@ a.article:hover {
 }
 
 .padding-responsive{
-	padding:10rem 0 15rem 0;
+	padding:10rem 0 10rem 0;
 }
 
 .p-5{
@@ -1467,14 +1467,14 @@ a.article:hover {
 }
 
 hr{
-	border: 4px solid #00AE8C;
+	border: 4px solid #77CEBB;
 	border-radius: 2px;
 	width: 60px;
 	border-top-width: 0!important;
 	position: absolute;
 	margin-right: auto;
 }
-
+/*
 .border-top{
 	border-top-left-radius: 35px;
 	border-top-right-radius: 35px;
@@ -1493,7 +1493,7 @@ hr{
 .border-bottom2{
 	border-bottom-left-radius: 35px;
 	border-bottom-right-radius: 35px;
-}
+}*/
 
 
 .pad-5{
@@ -1510,14 +1510,15 @@ hr{
 }
 
 .linea{
-	border-bottom: #00AE8C 3px solid;
+	background-image: linear-gradient(#77CEBB, #7FB9EF);
 	width: 35px;
+	height: 2px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 .text-fecha i,.text-fecha p{
-	color: #00AE8C!important;
+	color: #232830!important;
 }
 
 .text-fecha i{
@@ -1554,4 +1555,22 @@ hr{
 
 .d-none{
 	display: none;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.btn_black{
+	padding: 15px 25px!important;
+	border-radius: 5px;
+	background-color: #232830;
+	color: #fff!important;
+	transition: 0.5s;
+}
+
+.btn_black:hover{
+	background-color: #7FB2EC;
 }
