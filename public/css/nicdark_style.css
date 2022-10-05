@@ -148,7 +148,11 @@
 /* 1 THEME STRUCTURE ------------------------------------------------------- */
 
 /* 1.1 body */
-body{ margin:0px; padding:0px; }
+body{ margin:0px; padding:0px; scroll-behavior: smooth!important;}
+
+body {
+	scroll-behavior: smooth;
+}
 
 /* 1.2 container */
 .nicdark_container{ width:1200px; margin:auto; padding: 0px; }
@@ -1573,4 +1577,27 @@ hr{
 
 .btn_black:hover{
 	background-color: #7FB2EC;
+}
+
+#goToTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 25px;
+	font-weight: 800;
+	border: none;
+	outline: none;
+	background-color: #232830;
+	color: white;
+	cursor: pointer;
+	padding: 10px 15px;
+	border-radius: 4px;
+	transition: 0.5s;
+	border: 0.5px solid #fff;
+}
+
+#goToTop:hover{
+	background-color: #7FB9EF;
 }
