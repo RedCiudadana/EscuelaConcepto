@@ -1577,6 +1577,11 @@ hr{
 
 .btn_black:hover{
 	background-color: #7FB2EC;
+	border: none;
+}
+
+button{
+	border: none;
 }
 
 #goToTop {
@@ -1601,3 +1606,33 @@ hr{
 #goToTop:hover{
 	background-color: #7FB9EF;
 }
+
+/*Form de contato*/
+
+
+.contact_form{
+	width: 100%;
+}
+  
+.contact_form input{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #fff;
+	border: #232830 0.2px solid;
+}
+
+.contact_form textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #fff;
+	border: #232830 0.2px solid;
+}
+
+#message{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+  
