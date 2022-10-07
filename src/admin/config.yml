@@ -17,6 +17,11 @@ collections:
         }
       - { label: "Tags", name: "tags", widget: "hidden", default: "course" }
       - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Número de Estudiantes", name: "numest", widget: "string" }
+      - { label: "Duración", name: "duracion", widget: "string" }
+      - { label: "Número de Clases", name: "numclases", widget: "string" }
+      - { label: "Tiempo de Video", name: "tiempovideo", widget: "string" }
+      - { label: "Nivel", name: "nivel", widget: "string" }
       - { label: "Fecha de inicio", name: "start_date", widget: "datetime" }
       - { label: "Imagen del curso", name: "thumbnail", widget: "image" }
       - { label: "Imagen del slider", name: "thumbnails", widget: "image" }
