@@ -1635,4 +1635,7 @@ button{
 	margin-bottom: 20px;
 	padding: 10px;
 }
-  
+
+.list-unstyled{
+	list-style: none;
+}
