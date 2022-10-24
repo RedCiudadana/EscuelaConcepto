@@ -29,6 +29,11 @@ tags:
                             </a>
                             {% endif %}
                             {%- endfor -%}
+                            <div class="nicdark_section nicdark_height_30"></div>
+                            <button type="button" id="sidebarCollapse2" class="btn_black">
+                                <i class="fas fa-align-left"></i>
+                                <span>Listado de clases</span>
+                            </button>
                         </div>
 
                         <ul class="list-unstyled components" style="padding-left:20px">
@@ -249,6 +254,16 @@ tags:
     
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    
+    </script>
+
+    <script type="text/javascript">
+    
+        $(document).ready(function () {
+            $('#sidebarCollapse2').on('click', function () {
                 $('#sidebar').toggleClass('active');
             });
         });

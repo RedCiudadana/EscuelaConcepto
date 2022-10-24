@@ -1161,7 +1161,7 @@ a:focus {
 }
 
 #sidebar.active {
-    margin-left: -500px;
+    margin-left: -40%;
 }
 
 #sidebar .sidebar-header {
@@ -1263,7 +1263,7 @@ a.article:hover {
 
 #content {
     width: 100%;
-    padding: 20px;
+    padding: 80px;
     min-height: 100vh;
     transition: all 1s;
 }
@@ -1274,7 +1274,7 @@ a.article:hover {
 
 @media (max-width: 768px) {
     #sidebar {
-        margin-left: -250px;
+        margin-left: -150%;
     }
     #sidebar.active {
         margin-left: 0;
@@ -1282,6 +1282,10 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+
+	#content{
+		padding: 20px;
+	}
 }
 
 #homeSubmenu{
