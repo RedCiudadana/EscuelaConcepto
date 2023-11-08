@@ -1,7 +1,7 @@
 ---
 layout: perfil-curso.njk
 tags: course
-title: "Proceso de Formación: Datos Abiertos en la Justicia"
+title: "Proceso de Formación: Datos Abiertos en la Justicia 2023"
 numest: "60"
 duracion: 2 semanas
 numclases: 4 sesiones
