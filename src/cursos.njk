@@ -58,7 +58,7 @@ permalink: "/cursos/index.html"
                     </div>
 
                     <!--{{course.data.thumbnail}}  {{ course.url }}  {{course.data.title}}  {{ course.templateContent | safe}}-->
-                    {% for course in collections.course %}
+                    {% for course in collections.course | reverse %}
                     <a href="{{course.url}}">
                     <div class="nicdark_width_33_percentage nicdark_width_100_percentage_responsive nicdark_float_left" >
 
