@@ -196,7 +196,7 @@ permalink: "curso/{{ title | safe }}/index.html"
                                 <!--START tab-->
                                 <div class="nicdark_tabs">
                                     <div class="nicdark_section nicdark_height_40" id="t"></div>
-                                    <ul
+                                    <!--ul
                                         class="nicdark_list_style_none nicdark_margin_0 nicdark_padding_0 nicdark_section nicdark_border_bottom_2_solid_grey">
                                         <li class="nicdark_display_inline_block">
                                             <h4><a class="nicdark_outline_0 nicdark_padding_20 nicdark_display_inline_block nicdark_first_font nicdark_color_greydark active"
@@ -206,7 +206,7 @@ permalink: "curso/{{ title | safe }}/index.html"
                                             <h4><a class="nicdark_outline_0 nicdark_padding_20 nicdark_display_inline_block nicdark_first_font nicdark_color_greydark"
                                                 id="programa" href="#tabs" onclick="cambioTabP();">Programa</a></h4>
                                         </li>
-                                    </ul>
+                                    </ul-->
 
                                     <div class="nicdark_section nicdark_height_40"></div>
 
@@ -217,12 +217,12 @@ permalink: "curso/{{ title | safe }}/index.html"
                                         <p>
                                             {{ content | safe }}
                                         </p>
-                                        <div class="nicdark_section nicdark_height_50"></div>
+                                        {# <div class="nicdark_section nicdark_height_50"></div> #}
 
                                         <div class="nicdark_section nicdark_height_30"></div>
-                                    </div>
+                                    {# </div>
 
-                                    <div class="nicdark_section d-none" id="tabs-2" >
+                                    <div class="nicdark_section d-none" id="tabs-2" > #}
 
                                         <!--START program-->
                                         <h3><strong>Programa</strong></h3>
@@ -230,7 +230,7 @@ permalink: "curso/{{ title | safe }}/index.html"
 
                                         <div class="nicdark_section">
 
-                                            <!--
+                                            
                                             {%- for class in collections.class -%}
                                             {% if class.data.course == title %}
                                             <div
@@ -262,10 +262,10 @@ permalink: "curso/{{ title | safe }}/index.html"
                                                 </div>
                                             </div>
                                             {% endif %}
-                                            {%- endfor -%}-->
+                                            {%- endfor -%}
 
 
-                                            {%- for class in collections[title] -%}
+                                            {# {%- for class in collections[title] -%}
                                             <div
                                                 class="nicdark_section nicdark_border_top_1_solid_grey nicdark_padding_15 nicdark_box_sizing_border_box">
                                                 <div
@@ -294,7 +294,7 @@ permalink: "curso/{{ title | safe }}/index.html"
                                                     </a>
                                                 </div>
                                             </div>
-                                            {%- endfor -%}
+                                            {%- endfor -%} #}
 
                                         </div>
 

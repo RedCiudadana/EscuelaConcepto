@@ -4,6 +4,10 @@ const cursos = [
   "Estado Abierto, Políticas Públicas y Datos Abiertos",
   "Gobierno Abierto, Transparencia y Acceso a la Información Pública",
   "Justicia Abierta, Transparencia y Datos Abiertos",
+  "Datos Abiertos en la Justicia 2023",
+  "Introducción a la Justicia Abierta 2023",
+  "Diseño de Servicios en la Justicia 2023",
+  "Acceso a la información pública 2023",
 ];
 
 module.exports = function(eleventyConfig) {
