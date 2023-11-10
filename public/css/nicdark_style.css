@@ -1158,10 +1158,11 @@ a:focus {
     background: #00AE8C;
     color: #fff;
     transition: all 0.3s;
+	margin-left: -40%;
 }
 
 #sidebar.active {
-    margin-left: -40%;
+    margin-left: 0%;
 }
 
 #sidebar .sidebar-header {
