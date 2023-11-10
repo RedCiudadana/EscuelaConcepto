@@ -1573,6 +1573,7 @@ hr{
 
 .btn_black{
 	padding: 15px 25px!important;
+	margin: 0 5px;
 	border-radius: 5px;
 	background-color: #232830;
 	color: #fff!important;
@@ -1642,4 +1643,14 @@ button{
 
 .list-unstyled{
 	list-style: none;
+}
+
+.curso_titulo{
+	background-color: #00AE8C;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: 'Metropolis';
 }
