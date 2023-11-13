@@ -1191,23 +1191,30 @@ a:focus {
     background: #fff;
 }
 
-.linksside{
+.linksside > a{
 	color: #fff!important;
+	padding: 5px;
 }
 
+
 .linkssideactive{
+	padding: 5px;
+	background-color: #fff;
+}
+
+.linkssideactive > a{
 	color: #212529!important;
 	text-decoration: none;
 	background-color: #fff;
 }
 
 
-.linksside:hover{
+.linksside > a:hover{
 	color: #212529!important;
 	text-decoration: none;
 }
 
-.linkssideactive:hover{
+.linkssideactive > a:hover{
 	text-decoration: none;
 }
 
@@ -1344,15 +1351,15 @@ a.article:hover {
 }
 
 .button-new2{
-	background-color: #00AE8C;
+	background-color: #00AE8C!important;
 	color: #fff!important;
 	padding: 10px 15px;
 	border-radius: 4px;
-	transition: 0.3s
+	transition: 0.5s;
 }
 
 .button-new2:hover{
-	background-color: #0e8069;
+	background-color: #0e8069!important;
 }
 
 .text-white{
@@ -1468,10 +1475,17 @@ a.article:hover {
 	}
 }
 
+.offcanvas{
+	width: 25%!important;
+}
+
 @media only screen and (max-width: 960px) {
 	.borders{
 		border-left: none!important;
 		border-right: none!important;
+	}
+	.offcanvas{
+		width: 100%!important;
 	}
 }
 
@@ -1577,6 +1591,7 @@ hr{
 	margin: 0 5px;
 	border-radius: 5px;
 	background-color: #232830;
+	text-decoration: none;
 	color: #fff!important;
 	transition: 0.5s;
 }
@@ -1654,4 +1669,14 @@ button{
     margin-bottom: 40px;
     font-size: 20px;
     font-family: 'Metropolis';
+}
+
+.no_dec{
+	text-decoration: none;
+	color: #fff;
+}
+
+.side-links{
+	margin: 20px;
+	list-style: decimal!important;
 }
