@@ -2,8 +2,13 @@
 layout: perfil-curso.njk
 tags: course
 title: Justicia Abierta, Transparencia y Datos Abiertos
+numest: "100"
+duracion: "100"
+numclases: "10"
+tiempovideo: "10"
+nivel: Intermedio
 start_date: 2020-10-15T00:00:00.000Z
-thumbnail: /uploads/03.png
+thumbnail: /uploads/fotos_mesa-de-trabajo-1-copia-7.png
 thumbnails: /uploads/slider-07.png
 ---
 La justicia abierta, que va de la mano del acceso a la justicia, es mucho más que datos abiertos, transparencia, gobierno abierto, o la cooperación entre las ramas ejecutiva y judicial del poder público de cualquier país.
