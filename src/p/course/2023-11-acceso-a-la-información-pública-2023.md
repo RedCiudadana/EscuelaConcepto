@@ -8,7 +8,7 @@ numclases: 4 sesiones
 tiempovideo: 60 minutos
 nivel: Principiante
 start_date: 2023-11-08T18:07:25.914Z
-thumbnail: /uploads/03.png
+thumbnail: /uploads/fotos_mesa-de-trabajo-1-copia-2.png
 thumbnails: /uploads/banner03.png
 urlinscribete: https://forms.gle/FvNLR7cbPXttgoZB9
 ---
