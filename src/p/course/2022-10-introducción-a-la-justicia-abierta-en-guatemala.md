@@ -3,10 +3,10 @@ layout: perfil-curso.njk
 tags: course
 title: Introducción a la Justicia Abierta en Guatemala
 numest: "50"
-duracion: "50"
+duracion: 50 días
 numclases: "5"
 tiempovideo: "5"
-nivel: Fácil
+nivel: Principiante
 start_date: 2022-10-26T16:57:00.524Z
 thumbnail: /uploads/fotos_mesa-de-trabajo-1-copia-5.png
 thumbnails: /uploads/slider-09.png
