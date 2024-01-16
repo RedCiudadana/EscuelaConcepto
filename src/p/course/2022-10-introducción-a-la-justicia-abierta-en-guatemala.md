@@ -8,7 +8,7 @@ numclases: "5"
 tiempovideo: "5"
 nivel: Principiante
 start_date: 2022-10-26T16:57:00.524Z
-thumbnail: /uploads/fotos_mesa-de-trabajo-1-copia-5.png
+thumbnail: /uploads/covers-22.png
 thumbnails: /uploads/slider-09.png
 urlinscribete: https://redciudadana.org/blogs/proceso-de-formaci%C3%B3n-sobre-la-justicia-abierta/
 ---
