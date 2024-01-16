@@ -8,7 +8,7 @@ numclases: "10"
 tiempovideo: "19"
 nivel: Intermedio
 start_date: 2020-10-15T00:00:04.586Z
-thumbnail: /uploads/fotos_mesa-de-trabajo-1-copia.png
+thumbnail: /uploads/covers-20.png
 thumbnails: /uploads/slider-06.png
 ---
 El gobierno abierto constituye un nuevo paradigma que, basado en los principios de la transparencia y apertura, participación y colaboración, intenta responder al agotamiento de los modelos tradicionales de gobernanza en un mundo que está cambiando radical y vertiginosamente.
