@@ -1,7 +1,7 @@
 ---
 layout: clase.njk
 tags: class
-title: "Conceptos básicos de IA 🤖:"
+title: "1. Conceptos básicos de IA 🤖:"
 course: Inteligencia Artificial para la Planificación Pública
 ---
 Una introducción al mundo de la IA y sus aplicaciones en el sector público.
